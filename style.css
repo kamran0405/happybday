@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #ffb6c1, #ffd1dc);
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.gallery img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+.confetti {
+  position: fixed;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+  }
+}
